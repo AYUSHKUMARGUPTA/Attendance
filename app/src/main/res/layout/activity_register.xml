@@ -58,6 +58,15 @@
         android:id="@+id/bRegister"
         android:layout_width="match_parent"
         android:text="Register"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content" />
+
+    //Test1
+    <Button
+
+        android:id="@+id/bSkip"
+        android:layout_width="match_parent"
+        android:text="Skip"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
