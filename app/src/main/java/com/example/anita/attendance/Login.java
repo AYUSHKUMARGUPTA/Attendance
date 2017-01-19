@@ -42,6 +42,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 startActivity(new Intent(this, Register.class));
                 break;
         }//jbdkjhdh
-        //123
+        //1234
     }
 }
