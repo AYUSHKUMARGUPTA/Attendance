@@ -1,15 +1,12 @@
 package com.example.anita.attendance;
 
-import android.content.Intent;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 
-/**
- * Created by Anita on 12/11/2016.
- */
 
     public class User extends AppCompatActivity implements View.OnClickListener {
 
@@ -17,9 +14,10 @@ import android.widget.RadioButton;
     Button submitButton;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.user);
         Sem1 = (RadioButton) findViewById(R.id.Sem1);
         Sem2 = (RadioButton) findViewById(R.id.Sem2);
         Sem3 = (RadioButton) findViewById(R.id.Sem3);

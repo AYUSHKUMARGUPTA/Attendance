@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Register extends AppCompatActivity implements View.OnClickListener{
+public class Register extends AppCompatActivity implements View.OnClickListener
+{
 
     Button bRegister;
     EditText etDept,etUsername,etPassword,rePassword;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
@@ -27,12 +29,12 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     }
 
     @Override
-    public void onClick(View v) {
-        switch (v.getId()){
+    public void onClick(View v)
+    {
+        switch (v.getId())
+        {
             case R.id.bRegister:
                 startActivity(new Intent(this, Login.class));
-
-
                 break;
         }
     }
