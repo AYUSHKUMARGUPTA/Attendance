@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case  R.id.dept1:
-                startActivity(new Intent(this, Register.class));
+                startActivity(new Intent(this,User.class));
                 break;
 
             case R.id.dept2:
-                startActivity(new Intent(this,Register.class));
+                startActivity(new Intent(this,User.class));
                 break;
         }
     }
