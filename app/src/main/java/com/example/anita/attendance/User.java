@@ -18,6 +18,7 @@ import android.widget.RadioButton;
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user);
+
         Sem1 = (RadioButton) findViewById(R.id.Sem1);
         Sem2 = (RadioButton) findViewById(R.id.Sem2);
         Sem3 = (RadioButton) findViewById(R.id.Sem3);

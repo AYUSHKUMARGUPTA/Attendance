@@ -9,13 +9,23 @@
         android:id="@+id/dept1"
         android:layout_width="match_parent"
         android:text="CS"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#808080"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 
     <Button
         android:id="@+id/dept2"
         android:layout_width="match_parent"
         android:text="IS"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#808080"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 </LinearLayout>

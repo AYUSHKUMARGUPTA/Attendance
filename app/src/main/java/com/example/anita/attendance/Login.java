@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,6 +39,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             case  R.id.tvRegisterLink:
                 startActivity(new Intent(this, Register.class));
                 break;
+
         }
 
     }

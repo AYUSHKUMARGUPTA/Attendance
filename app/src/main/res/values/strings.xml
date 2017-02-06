@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Attendance</string>
+    <color name="red">#FF0000</color>
+    <color name="blue">#000080</color>
 </resources>
