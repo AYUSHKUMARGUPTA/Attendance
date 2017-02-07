@@ -1,11 +1,13 @@
 package com.example.anita.attendance;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Register extends AppCompatActivity implements View.OnClickListener
 {
@@ -37,5 +39,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener
                 startActivity(new Intent(this, Login.class));
                 break;
         }
+
+        Toast.makeText(getApplicationContext(), "Registered Successfully", Toast.LENGTH_LONG).show();
     }
 }
